@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0BFB9BAA1A084144008C790A /* CBStoreHouseRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFB9BA91A084144008C790A /* CBStoreHouseRefreshControl.m */; };
+		C5D94802588FAFD5A39830B7 /* libPods-CBStoreHouseRefreshControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4141B30F9524437099D142C7 /* libPods-CBStoreHouseRefreshControl.a */; };
 		FF6F542D1A086CC200BE5C52 /* storehouse.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF6F542C1A086CC200BE5C52 /* storehouse.plist */; };
 		FFB290C919FCC1320058F2BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB290C819FCC1320058F2BF /* main.m */; };
 		FFB290CC19FCC1320058F2BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB290CB19FCC1320058F2BF /* AppDelegate.m */; };
@@ -31,6 +32,9 @@
 
 /* Begin PBXFileReference section */
 		0BFB9BA91A084144008C790A /* CBStoreHouseRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CBStoreHouseRefreshControl.m; path = Class/CBStoreHouseRefreshControl.m; sourceTree = "<group>"; };
+		4141B30F9524437099D142C7 /* libPods-CBStoreHouseRefreshControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CBStoreHouseRefreshControl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76551D381B2C135B2AA11963 /* Pods-CBStoreHouseRefreshControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBStoreHouseRefreshControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-CBStoreHouseRefreshControl/Pods-CBStoreHouseRefreshControl.release.xcconfig"; sourceTree = "<group>"; };
+		F72A7D1A3C355A3B75E2F5C7 /* Pods-CBStoreHouseRefreshControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBStoreHouseRefreshControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CBStoreHouseRefreshControl/Pods-CBStoreHouseRefreshControl.debug.xcconfig"; sourceTree = "<group>"; };
 		FF6F542C1A086CC200BE5C52 /* storehouse.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = storehouse.plist; sourceTree = "<group>"; };
 		FFB290C319FCC1320058F2BF /* CBStoreHouseRefreshControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBStoreHouseRefreshControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB290C719FCC1320058F2BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5D94802588FAFD5A39830B7 /* libPods-CBStoreHouseRefreshControl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +73,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01141C097C1AA7496EEB6D3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4141B30F9524437099D142C7 /* libPods-CBStoreHouseRefreshControl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD7C5BF28A7721EBBCF235B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F72A7D1A3C355A3B75E2F5C7 /* Pods-CBStoreHouseRefreshControl.debug.xcconfig */,
+				76551D381B2C135B2AA11963 /* Pods-CBStoreHouseRefreshControl.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FFB290BA19FCC1320058F2BF = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +97,8 @@
 				FFB290C519FCC1320058F2BF /* CBStoreHouseRefreshControl */,
 				FFB290DF19FCC1320058F2BF /* CBStoreHouseRefreshControl Tests */,
 				FFB290C419FCC1320058F2BF /* Products */,
+				AD7C5BF28A7721EBBCF235B1 /* Pods */,
+				01141C097C1AA7496EEB6D3E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFB290E619FCC1320058F2BF /* Build configuration list for PBXNativeTarget "CBStoreHouseRefreshControl" */;
 			buildPhases = (
+				DE530C30DFFD34FEC29FEAA5 /* [CP] Check Pods Manifest.lock */,
 				FFB290BF19FCC1320058F2BF /* Sources */,
 				FFB290C019FCC1320058F2BF /* Frameworks */,
 				FFB290C119FCC1320058F2BF /* Resources */,
+				33806482CE05B1186BE1F662 /* [CP] Embed Pods Frameworks */,
+				22B69C690F0CE51A88AD1CB0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -190,6 +217,7 @@
 				TargetAttributes = {
 					FFB290C219FCC1320058F2BF = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = MTSS3D4RXV;
 					};
 					FFB290DB19FCC1320058F2BF = {
 						CreatedOnToolsVersion = 6.1;
@@ -236,6 +264,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22B69C690F0CE51A88AD1CB0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CBStoreHouseRefreshControl/Pods-CBStoreHouseRefreshControl-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33806482CE05B1186BE1F662 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CBStoreHouseRefreshControl/Pods-CBStoreHouseRefreshControl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE530C30DFFD34FEC29FEAA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FFB290BF19FCC1320058F2BF /* Sources */ = {
@@ -358,22 +434,28 @@
 		};
 		FFB290E719FCC1320058F2BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F72A7D1A3C355A3B75E2F5C7 /* Pods-CBStoreHouseRefreshControl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CBStoreHouseRefreshControl/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iosTaipei;
 				PRODUCT_NAME = CBStoreHouseRefreshControl;
 			};
 			name = Debug;
 		};
 		FFB290E819FCC1320058F2BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76551D381B2C135B2AA11963 /* Pods-CBStoreHouseRefreshControl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CBStoreHouseRefreshControl/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iosTaipei;
 				PRODUCT_NAME = CBStoreHouseRefreshControl;
 			};
 			name = Release;
