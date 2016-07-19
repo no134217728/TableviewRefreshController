@@ -4,37 +4,133 @@
 <dict>
 	<key>startPoints</key>
 	<array>
-		<string>{0,35}</string>
-		<string>{12,42}</string>
-		<string>{24,35}</string>
-		<string>{0,35}</string>
-		<string>{0,21}</string>
-		<string>{12,28}</string>
-		<string>{24,35}</string>
-		<string>{24,21}</string>
-		<string>{0,21}</string>
-		<string>{0,21}</string>
-		<string>{12,14}</string>
-		<string>{12,14}</string>
-		<string>{24,7}</string>
-		<string>{0,7}</string>
+        <!--        i         -->
+		<string>{0,30}</string>
+		<string>{00,40}</string>
+        <!--        O         -->
+        <string>{10,40}</string>
+        <string>{10,40}</string>
+        <string>{10,60}</string>
+        <string>{30,40}</string>
+        <!--        s         -->
+        <string>{40,40}</string>
+        <string>{40,40}</string>
+        <string>{40,50}</string>
+        <string>{60,50}</string>
+        <string>{60,60}</string>
+        <!--        t         -->
+        <string>{80,40}</string>
+        <string>{90,40}</string>
+        <!--        a         -->
+        <string>{110,40}</string>
+        <string>{110,40}</string>
+        <string>{130,40}</string>
+        <string>{110,50}</string>
+        <!--        i         -->
+        <string>{140,40}</string>
+        <string>{150,40}</string>
+        <string>{140,60}</string>
+        
+        <!--        p         -->
+        <string>{170,40}</string>
+        <string>{170,40}</string>
+        <string>{190,40}</string>
+        <string>{170,50}</string>
+        
+        <!--        e         -->
+        <string>{200,40}</string>
+        <string>{200,40}</string>
+        <string>{200,50}</string>
+        <string>{200,60}</string>
+        
+        <!--        i         -->
+        <string>{230,40}</string>
+        <string>{240,40}</string>
+        <string>{230,60}</string>
+
+        
 	</array>
 	<key>endPoints</key>
 	<array>
-		<string>{12,42}</string>
-		<string>{24,35}</string>
-		<string>{12,28}</string>
-		<string>{12,28}</string>
-		<string>{12,28}</string>
-		<string>{24,21}</string>
-		<string>{24,21}</string>
-		<string>{12,14}</string>
-		<string>{12,14}</string>
-		<string>{0,7}</string>
-		<string>{0,7}</string>
-		<string>{24,7}</string>
-		<string>{12,0}</string>
-		<string>{12,0}</string>
+		<string>{0,33}</string>
+		<string>{0,60}</string>
+        
+        <string>{10,60}</string>
+        <string>{30,40}</string>
+        <string>{30,60}</string>
+        <string>{30,60}</string>
+        
+        <string>{60,40}</string>
+        <string>{40,50}</string>
+        <string>{60,50}</string>
+        <string>{60,60}</string>
+        <string>{40,60}</string>
+        
+        <string>{100,40}</string>
+        <string>{90,60}</string>
+        
+        <string>{130,40}</string>
+        <string>{110,60}</string>
+        <string>{130,60}</string>
+        <string>{130,50}</string>
+
+        <string>{160,40}</string>
+        <string>{150,60}</string>
+        <string>{160,60}</string>
+        <!--        p         -->
+        <string>{190,40}</string>
+        <string>{170,60}</string>
+        <string>{190,50}</string>
+        <string>{190,50}</string>
+        
+        <!--        e         -->
+        <string>{220,40}</string>
+        <string>{200,60}</string>
+        <string>{220,50}</string>
+        <string>{220,60}</string>
+        
+        <string>{250,40}</string>
+        <string>{240,60}</string>
+        <string>{250,60}</string>
+
+
 	</array>
 </dict>
 </plist>
+
+
+<!--<key>startPoints</key>-->
+<!--<array>-->
+<!--    <string>{0,35}</string>-->
+<!--    <string>{12,42}</string>-->
+<!--    <string>{24,35}</string>-->
+<!--    <string>{0,35}</string>-->
+<!--    <string>{0,21}</string>-->
+<!--    <string>{12,28}</string>-->
+<!--    <string>{24,35}</string>-->
+<!--    <string>{24,21}</string>-->
+<!--    <string>{0,21}</string>-->
+<!--    <string>{0,21}</string>-->
+<!--    <string>{12,14}</string>-->
+<!--    <string>{12,14}</string>-->
+<!--    <string>{24,7}</string>-->
+<!--    <string>{0,7}</string>-->
+<!--</array>-->
+<!--<key>endPoints</key>-->
+<!--<array>-->
+<!--    <string>{12,42}</string>-->
+<!--    <string>{24,35}</string>-->
+<!--    <string>{12,28}</string>-->
+<!--    <string>{12,28}</string>-->
+<!--    <string>{12,28}</string>-->
+<!--    <string>{24,21}</string>-->
+<!--    <string>{24,21}</string>-->
+<!--    <string>{12,14}</string>-->
+<!--    <string>{12,14}</string>-->
+<!--    <string>{0,7}</string>-->
+<!--    <string>{0,7}</string>-->
+<!--    <string>{24,7}</string>-->
+<!--    <string>{12,0}</string>-->
+<!--    <string>{12,0}</string>-->
+<!--</array>-->
+

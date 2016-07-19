@@ -30,6 +30,21 @@
     XCTAssert(YES, @"Pass");
 }
 
+- (void)testString{
+    
+    NSString *a = @"abc";
+    NSString *b = @"abc";
+    XCTAssertEqual(a, b);
+}
+
+- (void)testString2{
+    
+    NSString *a = @"abc";
+    NSString *b = @"bbbb";
+    XCTAssertEqual(a, b);
+}
+
+
 - (void)testPerformanceExample {
     // This is an example of a performance test case.
     [self measureBlock:^{

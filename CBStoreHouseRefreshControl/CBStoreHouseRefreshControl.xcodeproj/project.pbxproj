@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0BFB9BAA1A084144008C790A /* CBStoreHouseRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFB9BA91A084144008C790A /* CBStoreHouseRefreshControl.m */; };
+		7F9977071D3E32B10042970C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F9977061D3E32B10042970C /* Default-568h@2x.png */; };
 		C5D94802588FAFD5A39830B7 /* libPods-CBStoreHouseRefreshControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4141B30F9524437099D142C7 /* libPods-CBStoreHouseRefreshControl.a */; };
 		FF6F542D1A086CC200BE5C52 /* storehouse.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF6F542C1A086CC200BE5C52 /* storehouse.plist */; };
 		FFB290C919FCC1320058F2BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB290C819FCC1320058F2BF /* main.m */; };
 		FFB290CC19FCC1320058F2BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB290CB19FCC1320058F2BF /* AppDelegate.m */; };
 		FFB290CF19FCC1320058F2BF /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB290CE19FCC1320058F2BF /* ContentViewController.m */; };
 		FFB290D419FCC1320058F2BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFB290D319FCC1320058F2BF /* Images.xcassets */; };
-		FFB290D719FCC1320058F2BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFB290D519FCC1320058F2BF /* LaunchScreen.xib */; };
 		FFB290E319FCC1320058F2BF /* CBStoreHouseRefreshControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB290E219FCC1320058F2BF /* CBStoreHouseRefreshControlTests.m */; };
 		FFFB8C961A02044C0007988E /* BarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFB8C951A02044C0007988E /* BarItem.m */; };
 		FFFB8C9C1A0325D50007988E /* AKTA.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFFB8C9B1A0325D50007988E /* AKTA.plist */; };
@@ -34,6 +34,7 @@
 		0BFB9BA91A084144008C790A /* CBStoreHouseRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CBStoreHouseRefreshControl.m; path = Class/CBStoreHouseRefreshControl.m; sourceTree = "<group>"; };
 		4141B30F9524437099D142C7 /* libPods-CBStoreHouseRefreshControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CBStoreHouseRefreshControl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76551D381B2C135B2AA11963 /* Pods-CBStoreHouseRefreshControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBStoreHouseRefreshControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-CBStoreHouseRefreshControl/Pods-CBStoreHouseRefreshControl.release.xcconfig"; sourceTree = "<group>"; };
+		7F9977061D3E32B10042970C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F72A7D1A3C355A3B75E2F5C7 /* Pods-CBStoreHouseRefreshControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBStoreHouseRefreshControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CBStoreHouseRefreshControl/Pods-CBStoreHouseRefreshControl.debug.xcconfig"; sourceTree = "<group>"; };
 		FF6F542C1A086CC200BE5C52 /* storehouse.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = storehouse.plist; sourceTree = "<group>"; };
 		FFB290C319FCC1320058F2BF /* CBStoreHouseRefreshControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBStoreHouseRefreshControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,7 +45,6 @@
 		FFB290CD19FCC1320058F2BF /* ContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
 		FFB290CE19FCC1320058F2BF /* ContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
 		FFB290D319FCC1320058F2BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		FFB290D619FCC1320058F2BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FFB290DC19FCC1320058F2BF /* CBStoreHouseRefreshControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CBStoreHouseRefreshControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB290E119FCC1320058F2BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFB290E219FCC1320058F2BF /* CBStoreHouseRefreshControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBStoreHouseRefreshControlTests.m; sourceTree = "<group>"; };
@@ -93,6 +93,7 @@
 		FFB290BA19FCC1320058F2BF = {
 			isa = PBXGroup;
 			children = (
+				7F9977061D3E32B10042970C /* Default-568h@2x.png */,
 				FFFB8C971A0204520007988E /* Class */,
 				FFB290C519FCC1320058F2BF /* CBStoreHouseRefreshControl */,
 				FFB290DF19FCC1320058F2BF /* CBStoreHouseRefreshControl Tests */,
@@ -121,7 +122,6 @@
 				FFB290CD19FCC1320058F2BF /* ContentViewController.h */,
 				FFB290CE19FCC1320058F2BF /* ContentViewController.m */,
 				FFB290D319FCC1320058F2BF /* Images.xcassets */,
-				FFB290D519FCC1320058F2BF /* LaunchScreen.xib */,
 				FFB290C619FCC1320058F2BF /* Supporting Files */,
 			);
 			path = CBStoreHouseRefreshControl;
@@ -212,7 +212,7 @@
 		FFB290BB19FCC1320058F2BF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Suyu Zhang";
 				TargetAttributes = {
 					FFB290C219FCC1320058F2BF = {
@@ -250,7 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFFB8C9C1A0325D50007988E /* AKTA.plist in Resources */,
-				FFB290D719FCC1320058F2BF /* LaunchScreen.xib in Resources */,
+				7F9977071D3E32B10042970C /* Default-568h@2x.png in Resources */,
 				FFB290D419FCC1320058F2BF /* Images.xcassets in Resources */,
 				FF6F542D1A086CC200BE5C52 /* storehouse.plist in Resources */,
 			);
@@ -344,17 +344,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		FFB290D519FCC1320058F2BF /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FFB290D619FCC1320058F2BF /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		FFB290E419FCC1320058F2BF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -376,6 +365,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
